@@ -1,0 +1,16 @@
+[Tue Feb 27 13:43:36.473843 2024] [ssl:warn] [pid 26270] AH01909: reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 13:43:36.493908 2024] [ssl:warn] [pid 26270] AH01909: reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 13:44:37.182911 2024] [ssl:warn] [pid 28977] AH01909: reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 13:44:37.195127 2024] [ssl:warn] [pid 28977] AH01909: reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 13:53:14.109448 2024] [ssl:warn] [pid 42483] AH01909: reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 13:53:14.129662 2024] [ssl:warn] [pid 42483] AH01909: reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 13:55:53.077426 2024] [php7:notice] [pid 42542] [client 127.0.0.1:63995] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 127.0.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Tue Feb 27 13:55:53.079755 2024] [php7:error] [pid 42542] [client 127.0.0.1:63995] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.3.33. in /Users/alexander/web/www/reviewer/vendor/composer/platform_check.php on line 24
+[Tue Feb 27 14:05:17.259665 2024] [ssl:warn] [pid 47767] AH01909: reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 14:05:17.276217 2024] [ssl:warn] [pid 47767] AH01909: reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 14:06:58.779159 2024] [ssl:warn] [pid 50496] AH01909: reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 14:06:58.800655 2024] [ssl:warn] [pid 50496] AH01909: reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 14:10:01.447576 2024] [ssl:warn] [pid 53564] AH01909: develop.reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 14:10:01.459356 2024] [ssl:warn] [pid 53564] AH01909: develop.reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 28 09:30:33.823211 2024] [ssl:warn] [pid 75321] AH01909: develop.reviewer:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 28 09:30:33.842982 2024] [ssl:warn] [pid 75321] AH01909: develop.reviewer:443:0 server certificate does NOT include an ID which matches the server name
