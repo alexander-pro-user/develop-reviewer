@@ -36,21 +36,6 @@ services:
         networks:
             - laravel-net
 
-    #apache:
-    #    build:
-      #      context: .
-      #      dockerfile: docker/apache/apache.dockerfile
-     #   ports:
-     #       - "8008:80"
-     #   volumes:
-     #       - ./src:/var/www/project
-     #   extra_hosts:
-     #       - "develop.reviewer.com:127.0.0.1"
-     #   restart: unless-stopped
-      #  networks:
-      #      - laravel-net
-
-
     node:
         build:
             context: .
@@ -60,7 +45,6 @@ services:
         working_dir: /var/www/project
         networks:
             - laravel-net
-
 
 networks:
     laravel-net:

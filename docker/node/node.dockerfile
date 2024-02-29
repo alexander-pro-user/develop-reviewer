@@ -1,3 +1,3 @@
-# Используем официальный образ Node.js 18
+# Node.js Options
 FROM node:18
 WORKDIR /var/www/project
