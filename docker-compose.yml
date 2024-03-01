@@ -13,7 +13,6 @@ services:
         working_dir: /var/www/project
         volumes:
             - ./src:/var/www/project
-        restart: unless-stopped
         extra_hosts:
             - "develop.reviewer.com:127.0.0.1"
         ports:
