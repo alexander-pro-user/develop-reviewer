@@ -51,3 +51,10 @@ RUN ln -s /etc/apache2/sites-available/my-vhost.conf /etc/apache2/sites-enabled/
 RUN chmod -R 755 /var/log/apache2 \
     && ln -sf /dev/stdout /var/log/apache2/access.log \
     && ln -sf /dev/stderr /var/log/apache2/error.log
+
+
+# Install and activate the mod_rewrite module
+RUN a2enmod rewrite
+RUN service apache2 restart
+
+RUN chown -R www-data:www-data /var/www/project && chmod -R 755 /var/www/project

@@ -3,7 +3,7 @@ FROM node:latest
 WORKDIR /var/www/project
 
 # Install additional dependencies
-# RUN apt-get update && apt-get install -y ...
+#RUN apt-get update && apt-get install -y ...
 
 # Install dependencies
-RUN npm install
+#RUN npm install
