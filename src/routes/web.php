@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [\App\Http\Controllers\PostController::class, 'index'])->name('post.index');
+
+
+//Route::get('/', function () {
+    //return view('welcome');
+//});
+
+Route::group(['prefix' => 'user'], function ()
+{
+    Route::get('/show', [\App\Http\Controllers\UserController::class, 'show'])->name('user.show');
 });
